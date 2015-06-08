@@ -1,7 +1,7 @@
 #boilerplate-django-angular
 ##Intro
 
-This boilerplate is created to make it easier to start working with Django-rest-framework and AngularJS.  This project is ready to use out of the box.  By using /api in your app's urls.py, it is configured to work at port 8000 for the django server and port 9000 for the grunt server running the angular app.  CORs for Django and headers for AngularJS have all been set to work by default.  Looking in settings.py and GruntFile.JS, there are comments to indicate where to edit in order to change port numbers or the default api path for REST endpoints.  Hope this makes it easier for you to start your next django-rest-framework and AngularJS project.  As always, it is recommended that you work in a new virtualenvironment.  This project is tested on Python 2.7, with Django 1.7.7 and AngularJS 1.3.
+This boilerplate is created to make it easier to start working with Django-rest-framework and AngularJS.  This project is ready to use out of the box.  By using /api in your app's urls.py, it is configured to work at port 8000 for the Django server and port 9000 for the Grunt server running the Angular app.  CORs for Django and headers for AngularJS are already configured.  Looking in settings.py and GruntFile.JS, there are comments to indicate where to edit in order to change port numbers or the default api path for REST endpoints.  Hope this makes it easier for you to start your next django-rest-framework and AngularJS project.  As always, it is recommended that you work in a new virtual environment.  This project is tested on Python 2.7, with Django 1.7.7 and AngularJS 1.3.
 
 ##QuickStart
 
@@ -56,6 +56,7 @@ Change directory back to yourpath/boilerplate_django_angular/
 Open a new terminal.
 
 Change directory to yourpath/boilerplate_django_angular/static
+
 grunt serve
 
 This will automatically launch your default browser and point to localhost:9000/.  If everything works, you should see the message "API call works!  Let's do this!".  Otherwise you will see this instead "API call did not work, did you start the server."
