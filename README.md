@@ -61,10 +61,10 @@ Change directory to yourpath/boilerplate_django_angular/static
 
 grunt serve
 
-This will automatically launch your default browser and point to localhost:9000/.  If everything works, you should see the message
+This will automatically launch your default browser and point to localhost:9000/.  If everything works, you should see the message:
 
 > "API call works!  Let's do this!".
 
-Otherwise you will see this instead
+Otherwise you will see this instead:
 
 > "API call did not work, did you start the server."
