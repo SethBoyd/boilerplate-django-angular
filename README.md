@@ -16,7 +16,7 @@ Follow the instructions from npmjs.com below:
 
 ### Install Grunt command line tool.
 
-sudo npm install -g grunt-cli
+`sudo npm install -g grunt-cli`
 
 More detailed instructions here: [http://gruntjs.com/getting-started](http://gruntjs.com/getting-started).
 
@@ -24,7 +24,7 @@ More detailed instructions here: [http://gruntjs.com/getting-started](http://gru
 
 Change directory to yourpath/boilerplate_django_angular/
 
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 
 This will install all required packages for Django.  Main ones are Django 1.7.7, django-rest-framework and django-cors.
 
@@ -32,34 +32,34 @@ This will install all required packages for Django.  Main ones are Django 1.7.7,
 
 Change directory to yourpath/boilerplate_django_angular/static
 
-sudo npm install
+`sudo npm install`
 
 ### Install Bower Packages
 
 Stay in directory yourpath/boilerplate_django_angular/static
 
-sudo bower install
+`sudo bower install`
 
 This will install all of AngularJS's dependencies.
 
 ### Patch grunt-connect-proxy
 
-sudo npm install eventemitter3@0.1.6
+`sudo npm install eventemitter3@0.1.6`
 
 ### Create SQLite database
 Change directory back to yourpath/boilerplate_django_angular/
 
-./manage.py migrate
+`./manage.py migrate`
 
 ### Start Django server
-./manage.py runserver
+`./manage.py runserver`
 
 ### Start Grunt server
 Open a new terminal.
 
 Change directory to yourpath/boilerplate_django_angular/static
 
-grunt serve
+`grunt serve`
 
 This will automatically launch your default browser and point to localhost:9000/.  If everything works, you should see the message:
 
