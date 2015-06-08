@@ -12,7 +12,7 @@ Follow the instructions from npmjs.com below:
 
 ### Install Bower
 
-'sudo npm install -g bower'
+`sudo npm install -g bower`
 
 ### Install Grunt command line tool.
 
