@@ -67,4 +67,4 @@ This will automatically launch your default browser and point to localhost:9000/
 
 Otherwise you will see this instead:
 
-> "API call did not work, did you start the server."
+> "API call did not work, did you start the server?"
