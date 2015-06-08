@@ -8,6 +8,7 @@ This boilerplate is created to make it easier to start working with Django-rest-
 ### Install Node and update npm.
 
 Follow the instructions from npmjs.com below:
+
 [https://docs.npmjs.com/getting-started/installing-node](https://docs.npmjs.com/getting-started/installing-node)
 
 ### Install Bower
