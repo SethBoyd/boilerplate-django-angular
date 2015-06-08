@@ -30,11 +30,13 @@ This will install all required packages for Django.  Main ones are Django 1.7.7,
 
 ### Install Grunt dependencies
 
+Change directory to yourpath/boilerplate_django_angular/static
+
 sudo npm install
 
 ### Install Bower Packages
 
-Change directory to yourpath/boilerplate_django_angular/static
+Stay in directory yourpath/boilerplate_django_angular/static
 
 sudo bower install
 
