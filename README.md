@@ -12,7 +12,7 @@ Follow the instructions from npmjs.com below:
 
 ### Install Bower
 
-npm install -g bower
+sudo npm install -g bower
 
 ### Install Grunt command line tool.
 
@@ -42,7 +42,7 @@ This will install all of AngularJS's dependencies.
 
 ### Patch grunt-connect-proxy
 
-npm install eventemitter3@0.1.6
+sudo npm install eventemitter3@0.1.6
 
 ### Create SQLite database
 Change directory back to yourpath/boilerplate_django_angular/
@@ -59,6 +59,3 @@ Change directory to yourpath/boilerplate_django_angular/static
 grunt serve
 
 This will automatically launch your default browser and point to localhost:9000/.  If everything works, you should see the message "API call works!  Let's do this!".  Otherwise you will see this instead "API call did not work, did you start the server."
-
-
-
