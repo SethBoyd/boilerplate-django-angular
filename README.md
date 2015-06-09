@@ -45,7 +45,7 @@ This will install all of AngularJS's dependencies.
 
 ### Install Grunt-connect-proxy
 
-`npm install grunt-connect-proxy --save-dev`
+`sudo npm install grunt-connect-proxy --save-dev`
 
 ### Patch grunt-connect-proxy
 
