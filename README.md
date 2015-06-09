@@ -39,7 +39,7 @@ This will install all required packages for Django.  Main ones are Django 1.7.7,
 
 Stay in directory yourpath/boilerplate_django_angular/static
 
-`sudo bower install`
+`bower install`
 
 This will install all of AngularJS's dependencies.
 
