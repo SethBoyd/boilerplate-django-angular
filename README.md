@@ -23,7 +23,7 @@ More detailed instructions here: [http://gruntjs.com/getting-started](http://gru
 
 ### Install Django packages
 
-Change directory to yourpath/boilerplate_django_angular/
+`cd yourpath/boilerplate_django_angular/`
 
 `pip install -r requirements.txt`
 
@@ -31,7 +31,7 @@ This will install all required packages for Django.  Main ones are Django 1.7.7,
 
 ### Install Grunt dependencies
 
-Change directory to yourpath/boilerplate_django_angular/static
+`cd to yourpath/boilerplate_django_angular/static`
 
 `sudo npm install`
 
@@ -48,7 +48,7 @@ This will install all of AngularJS's dependencies.
 `sudo npm install eventemitter3@0.1.6`
 
 ### Create SQLite database
-Change directory back to yourpath/boilerplate_django_angular/
+`cd yourpath/boilerplate_django_angular/`
 
 `./manage.py migrate`
 
@@ -58,7 +58,7 @@ Change directory back to yourpath/boilerplate_django_angular/
 ### Start Grunt server
 Open a new terminal.
 
-Change directory to yourpath/boilerplate_django_angular/static
+`cd yourpath/boilerplate_django_angular/static`
 
 `grunt serve`
 
