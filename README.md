@@ -43,6 +43,10 @@ Stay in directory yourpath/boilerplate_django_angular/static
 
 This will install all of AngularJS's dependencies.
 
+### Install Grunt-connect-proxy
+
+`npm install grunt-connect-proxy --save-dev`
+
 ### Patch grunt-connect-proxy
 
 `sudo npm install eventemitter3@0.1.6`
